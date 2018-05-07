@@ -1,0 +1,380 @@
+Redirecting stderr to 'C:\steamcmd\logs\stderr.txt'
+Looks like steam didn't shutdown cleanly, scheduling immediate update check
+[  0%] Checking for available updates...
+[----] Verifying installation...
+Steam Console Client (c) Valve Corporation
+-- type 'quit' to exit --
+Loading Steam API...OK.
+
+Logging in user 'multiclangaming1' to Steam Public...Logged in OK
+Waiting for user info...OK
+AppID : 4940, change number : 4365629/4294967295, token 0, last change : Sat Apr 28 19:47:14 2018
+"4940"
+{
+        "common"
+        {
+                "name"          "Natural Selection 2 Dedicated Server"
+                "type"          "Tool"
+                "parent"                "4920"
+                "oslist"                "windows,linux"
+                "gameid"                "4940"
+        }
+        "extended"
+        {
+                "developer"             ""
+                "gamedir"               "Natural Selection 2 Dedicated Server"
+                "homepage"              ""
+                "icon"          ""
+                "noservers"             "0"
+                "sourcegame"            "1"
+                "state"         "eStateTool"
+                "visibleonlywhensubscribed"             "1"
+        }
+        "config"
+        {
+                "contenttype"           "3"
+                "installdir"            "Natural Selection 2 Dedicated Server"
+                "launch"
+                {
+                        "0"
+                        {
+                                "executable"            "Server.exe"
+                        }
+                }
+        }
+        "depots"
+        {
+                "1004"
+                {
+                        "name"          "Steamworks SDK Redist (WIN32)"
+                        "config"
+                        {
+                                "oslist"                "windows"
+                        }
+                        "manifests"
+                        {
+                                "public"                "4363861372187666562"
+                        }
+                        "maxsize"               "27257824"
+                        "depotfromapp"          "1007"
+                }
+                "1005"
+                {
+                        "name"          "Steamworks SDK Redist (OSX32)"
+                        "config"
+                        {
+                                "oslist"                "macos"
+                        }
+                        "manifests"
+                        {
+                                "public"                "2135359612286175146"
+                        }
+                        "depotfromapp"          "1007"
+                }
+                "1006"
+                {
+                        "name"          "Steamworks SDK Redist (LINUX32)"
+                        "config"
+                        {
+                                "oslist"                "linux"
+                        }
+                        "manifests"
+                        {
+                                "public"                "440706658004308074"
+                        }
+                        "maxsize"               "43908221"
+                        "depotfromapp"          "1007"
+                }
+                "228985"
+                {
+                        "name"          "VC 2013 Redist"
+                        "config"
+                        {
+                                "oslist"                "windows"
+                        }
+                        "manifests"
+                        {
+                                "public"                "3966345552745568756"
+                        }
+                        "maxsize"               "13699237"
+                        "depotfromapp"          "228980"
+                }
+                "4922"
+                {
+                        "name"          "Natural Selection 2 Dedicated Server Content"
+                        "manifests"
+                        {
+                                "public"                "6830962890454306109"
+                                "beta"          "3961337824062735966"
+                                "build_307"             "9121644579004603520"
+                                "hitreg-testing"                "4709786936846125414"
+                                "nsl_season_10"         "4842954308971610283"
+                                "nsl_season_9"          "698981014436207530"
+                        }
+                        "maxsize"               "2982689934"
+                        "encryptedmanifests"
+                        {
+                                "backup"
+                                {
+                                        "encrypted_gid_2"               "54FF99CAF1510622BACFD06ACBFF48D2"
+                                        "encrypted_size_2"              "6B18CB44D808C7C712C535C3B7D2D13B"
+                                }
+                                "experimental"
+                                {
+                                        "encrypted_gid_2"               "CFD5514AB09C30353821BCF2CBD1CE68"
+                                        "encrypted_size_2"              "1124CE986338256DC98532CEC3BDC6B3"
+                                }
+                                "testing"
+                                {
+                                        "encrypted_gid_2"               "1F144021152291F179355B789502092F"
+                                        "encrypted_size_2"              "0587C787C304F1BB5AB8BE770F700209"
+                                }
+                        }
+                }
+                "overridescddb"         "1"
+                "branches"
+                {
+                        "public"
+                        {
+                                "buildid"               "2660979"
+                                "timeupdated"           "1522946445"
+                        }
+                        "backup"
+                        {
+                                "buildid"               "2275931"
+                                "description"           ""
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1520527767"
+                        }
+                        "beta"
+                        {
+                                "buildid"               "2725140"
+                                "description"           "Patch beta release branch"
+                                "timeupdated"           "1524772450"
+                        }
+                        "build_307"
+                        {
+                                "buildid"               "1275763"
+                                "description"           ""
+                                "timeupdated"           "1473365691"
+                        }
+                        "experimental"
+                        {
+                                "buildid"               "2663818"
+                                "description"           "New features not yet ready for Beta"
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1522957589"
+                        }
+                        "hitreg-testing"
+                        {
+                                "buildid"               "2587629"
+                                "description"           "Current build with hitreg debug tools enabled"
+                                "timeupdated"           "1520530043"
+                        }
+                        "nsl_season_10"
+                        {
+                                "buildid"               "1385234"
+                                "description"           ""
+                                "timeupdated"           "1477574684"
+                        }
+                        "nsl_season_9"
+                        {
+                                "buildid"               "1040741"
+                                "description"           ""
+                                "timeupdated"           "1459260611"
+                        }
+                        "testing"
+                        {
+                                "buildid"               "2233327"
+                                "description"           "Testing branch"
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1509040348"
+                        }
+                }
+        }
+}
+AppID : 4940, change number : 4365629/4294967295, token 0, last change : Sat Apr 28 19:47:14 2018
+"4940"
+{
+        "common"
+        {
+                "name"          "Natural Selection 2 Dedicated Server"
+                "type"          "Tool"
+                "parent"                "4920"
+                "oslist"                "windows,linux"
+                "gameid"                "4940"
+        }
+        "extended"
+        {
+                "developer"             ""
+                "gamedir"               "Natural Selection 2 Dedicated Server"
+                "homepage"              ""
+                "icon"          ""
+                "noservers"             "0"
+                "sourcegame"            "1"
+                "state"         "eStateTool"
+                "visibleonlywhensubscribed"             "1"
+        }
+        "config"
+        {
+                "contenttype"           "3"
+                "installdir"            "Natural Selection 2 Dedicated Server"
+                "launch"
+                {
+                        "0"
+                        {
+                                "executable"            "Server.exe"
+                        }
+                }
+        }
+        "depots"
+        {
+                "1004"
+                {
+                        "name"          "Steamworks SDK Redist (WIN32)"
+                        "config"
+                        {
+                                "oslist"                "windows"
+                        }
+                        "manifests"
+                        {
+                                "public"                "4363861372187666562"
+                        }
+                        "maxsize"               "27257824"
+                        "depotfromapp"          "1007"
+                }
+                "1005"
+                {
+                        "name"          "Steamworks SDK Redist (OSX32)"
+                        "config"
+                        {
+                                "oslist"                "macos"
+                        }
+                        "manifests"
+                        {
+                                "public"                "2135359612286175146"
+                        }
+                        "depotfromapp"          "1007"
+                }
+                "1006"
+                {
+                        "name"          "Steamworks SDK Redist (LINUX32)"
+                        "config"
+                        {
+                                "oslist"                "linux"
+                        }
+                        "manifests"
+                        {
+                                "public"                "440706658004308074"
+                        }
+                        "maxsize"               "43908221"
+                        "depotfromapp"          "1007"
+                }
+                "228985"
+                {
+                        "name"          "VC 2013 Redist"
+                        "config"
+                        {
+                                "oslist"                "windows"
+                        }
+                        "manifests"
+                        {
+                                "public"                "3966345552745568756"
+                        }
+                        "maxsize"               "13699237"
+                        "depotfromapp"          "228980"
+                }
+                "4922"
+                {
+                        "name"          "Natural Selection 2 Dedicated Server Content"
+                        "manifests"
+                        {
+                                "public"                "6830962890454306109"
+                                "beta"          "3961337824062735966"
+                                "build_307"             "9121644579004603520"
+                                "hitreg-testing"                "4709786936846125414"
+                                "nsl_season_10"         "4842954308971610283"
+                                "nsl_season_9"          "698981014436207530"
+                        }
+                        "maxsize"               "2982689934"
+                        "encryptedmanifests"
+                        {
+                                "backup"
+                                {
+                                        "encrypted_gid_2"               "54FF99CAF1510622BACFD06ACBFF48D2"
+                                        "encrypted_size_2"              "6B18CB44D808C7C712C535C3B7D2D13B"
+                                }
+                                "experimental"
+                                {
+                                        "encrypted_gid_2"               "CFD5514AB09C30353821BCF2CBD1CE68"
+                                        "encrypted_size_2"              "1124CE986338256DC98532CEC3BDC6B3"
+                                }
+                                "testing"
+                                {
+                                        "encrypted_gid_2"               "1F144021152291F179355B789502092F"
+                                        "encrypted_size_2"              "0587C787C304F1BB5AB8BE770F700209"
+                                }
+                        }
+                }
+                "overridescddb"         "1"
+                "branches"
+                {
+                        "public"
+                        {
+                                "buildid"               "2660979"
+                                "timeupdated"           "1522946445"
+                        }
+                        "backup"
+                        {
+                                "buildid"               "2275931"
+                                "description"           ""
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1520527767"
+                        }
+                        "beta"
+                        {
+                                "buildid"               "2725140"
+                                "description"           "Patch beta release branch"
+                                "timeupdated"           "1524772450"
+                        }
+                        "build_307"
+                        {
+                                "buildid"               "1275763"
+                                "description"           ""
+                                "timeupdated"           "1473365691"
+                        }
+                        "experimental"
+                        {
+                                "buildid"               "2663818"
+                                "description"           "New features not yet ready for Beta"
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1522957589"
+                        }
+                        "hitreg-testing"
+                        {
+                                "buildid"               "2587629"
+                                "description"           "Current build with hitreg debug tools enabled"
+                                "timeupdated"           "1520530043"
+                        }
+                        "nsl_season_10"
+                        {
+                                "buildid"               "1385234"
+                                "description"           ""
+                                "timeupdated"           "1477574684"
+                        }
+                        "nsl_season_9"
+                        {
+                                "buildid"               "1040741"
+                                "description"           ""
+                                "timeupdated"           "1459260611"
+                        }
+                        "testing"
+                        {
+                                "buildid"               "2233327"
+                                "description"           "Testing branch"
+                                "pwdrequired"           "1"
+                                "timeupdated"           "1509040348"
+                        }
+                }
+        }
+}
