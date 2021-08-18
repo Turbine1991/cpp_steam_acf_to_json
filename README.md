@@ -12,17 +12,17 @@ Windows Support: x86, x86_x64
 
 ```1110931```
 
-> cat test_appmanifest_steamcmd.acf | acf_to_json | jq -r ".[\"4940\"].depots.branches.public.buildid"
+> cat test_appmanifest_steamcmd.acf | acf_to_json | jq -r ".[\\"4940\\"].depots.branches.public.buildid"
 
 ```2660979```
 
 ### Steamcmd example - Get buildid
-> ./steamcmd/steamcmd.sh +login anonymous +app_info_update 1 +app_info_print "740" +app_info_print "740" +quit | acf_to_json | jq -r ".[\"740\"].depots.branches.public.buildid"
+> ./steamcmd/steamcmd.sh +login anonymous +app_info_update 1 +app_info_print "740" +app_info_print "740" +quit | acf_to_json | jq -r ".[\\"740\\"].depots.branches.public.buildid"
 
 ```2735003```
 
 ### Steamcmd example - Get all branches [branche buildid timestamp_updated]
-> ./steamcmd/steamcmd.sh +login anonymous +app_info_update 1 +app_info_print "740" +app_info_print "740" +quit | acf_to_json | jq -r ".[\"740\"].depots.branches | to_entries[] | [.key, .value.buildid, .value.timeupdated, .value.pwdrequired] | @tsv"
+> ./steamcmd/steamcmd.sh +login anonymous +app_info_update 1 +app_info_print "740" +app_info_print "740" +quit | acf_to_json | jq -r ".[\\"740\\"].depots.branches | to_entries[] | [.key, .value.buildid, .value.timeupdated, .value.pwdrequired] | @tsv"
 
 ```1.36.3.1  2646665 1524265990
 
